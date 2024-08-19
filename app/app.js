@@ -4,6 +4,7 @@ import loadInitializers from 'ember-load-initializers';
 import config from 'ember-sand-box-embedded-app/config/environment';
 
 export default class App extends Application {
+  rootElement = '#sanbox';
   modulePrefix = config.modulePrefix;
   podModulePrefix = config.podModulePrefix;
   Resolver = Resolver;
