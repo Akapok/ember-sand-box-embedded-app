@@ -1,1 +1,12 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+.test {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    border-radius: 50px;
+}
